@@ -12,9 +12,9 @@ W2Pixel, a plugin developed for pixel drawings in the browser, made in JavaScrip
 
 <img src="ex.png"/>
 
-<code>
+<code><pre>
 
-  <script>
+    <script>
 
             w2pixel( 400 , 400 , 19 , 19 , false );
 
@@ -85,4 +85,4 @@ W2Pixel, a plugin developed for pixel drawings in the browser, made in JavaScrip
 
         </script>
 
-</code>
+</pre></code>
