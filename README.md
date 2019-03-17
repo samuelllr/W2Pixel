@@ -13,6 +13,8 @@ W2Pixel, um plugin desenvolvido para desenhos em pixel no navegador, feito em Ja
 
 ************
 
+exemple:
+exemplo:
 
 <img src="ex.png"/>
 
