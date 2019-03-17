@@ -9,6 +9,10 @@ W2Pixel, a plugin developed for pixel drawings in the browser, made in JavaScrip
 
 ************
 
+W2Pixel, um plugin desenvolvido para desenhos em pixel no navegador, feito em JavaScript, com ele você desenha, utilizando em seu código HTML e executando em seu navegador, assim o desenho é formado no formato pixelado. W2Pixel, é rápido e prático, simples de aprender em apenas 1 dia.
+
+************
+
 
 <img src="ex.png"/>
 
