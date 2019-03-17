@@ -14,6 +14,7 @@ W2Pixel, um plugin desenvolvido para desenhos em pixel no navegador, feito em Ja
 ************
 
 exemple:
+<br>
 exemplo:
 
 <img src="ex.png"/>
@@ -94,4 +95,7 @@ exemplo:
 </pre></code>
 
 Current version : 2.0.0 .
+<br>
 Versão atual : 2.0.0 .
+
+site : https://samcode.000webhostapp.com
