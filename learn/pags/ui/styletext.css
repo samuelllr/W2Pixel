@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css?family=VT323');
+
+body{
+	margin:0px;
+}
+
+/* SCROLL BAR PERSONALIZAÃ‡ÃƒO*/
+/**/body::-webkit-scrollbar{
+/**/	background:#000;
+/**/	width: 5px;
+/**/}
+/**/body::-webkit-scrollbar-thumb{
+/**/	background: #eee;
+/**/}
+/**/body::-webkit-scrollbar-button{
+/**/	display: none;
+/**/}
+/*===========================*/
+
+section{
+	position: absolute;
+	top:0px;left:0px;
+	width: 100%;height: 100%;
+}
+
+section .tt{
+	position: absolute;
+	top:100px;left:50%;
+	width:600px;height:2700px;
+	margin-left: -300px;
+}
+
+section .tt2{
+	position: absolute;
+	top:100px;left:50%;
+	width:600px;height:1500px;
+	margin-left: -300px;
+}
+
+section .tt3{
+	position: absolute;
+	top:100px;left:50%;
+	width:600px;height:1300px;
+	margin-left: -300px;
+}
+
+section .tt4{
+	position: absolute;
+	top:100px;left:50%;
+	width:600px;height:2000px;
+	margin-left: -300px;
+}
+
+section .tt5{
+	position: absolute;
+	top:100px;left:50%;
+	width:600px;height:400px;
+	margin-left: -300px;
+}
+
+section .tt6{
+	position: absolute;
+	top:100px;left:50%;
+	width:600px;height:2200px;
+	margin-left: -300px;
+}
+
+section .tt7{
+	position: absolute;
+	top:100px;left:50%;
+	width:600px;height:13600px;
+	margin-left: -300px;
+}
+
+section h1{
+	text-align: center;
+	font-family: "VT323" , sans-serif ;
+	font-size: 30pt;
+}
+
+section p{
+	text-align: center;
+	font-family: "VT323" , sans-serif ;
+	font-size: 20pt;
+}
+
+section pre{
+	font-size: 14pt;
+	background-color: #eee ;
+
+}
+
+section code{
+	background-color: #eee ;
+}
+
+section object{
+	position: relative;
+	left:0px;
+	width:100%;height:400px;
+}
+
+section img{
+	position: relative;
+	left:50%;
+	margin-left: -175px;
+	width:350px;height:300px;
+}
+
+/*REPOSIVIDADE REPONSIVIDADE REPONSIVIDADE*/
+
+@media screen and ( min-width: 200px ) and ( max-width: 300px ){
+
+	section .tt{
+		width:200px;
+		height:1900px;
+		margin-left: -100px;
+	}
+
+	section .tt2{
+		width:200px;
+		height:1000px;
+		margin-left: -100px;
+	}
+
+	section .tt3{
+		width:200px;
+		height:900px;
+		margin-left: -100px;
+	}
+
+	section .tt4{
+		width:200px;
+		height:1300px;
+		margin-left: -100px;
+	}
+
+	section .tt5{
+		left:50%;
+		width:200px;
+		margin-left: -100px;
+	}
+
+	section .tt6{
+		width:200px;
+		height:1400px;
+		margin-left: -100px;
+	}
+
+	section .tt7{
+		width:200px;
+		height:6750px;
+		margin-left: -100px;
+	}
+
+	section h1{
+		font-size: 20pt;
+	}
+
+	section p{
+		font-size: 10pt;
+	}
+
+	section pre{
+		font-size: 6pt;
+	}
+
+}
+
+@media screen and ( min-width: 301px ) and ( max-width: 400px ){
+
+	section .tt{
+		width:300px;
+		height:2100px;
+		margin-left: -150px;
+	}
+
+	section .tt2{
+		width:300px;
+		height:1100px;
+		margin-left: -150px;
+	}
+
+	section .tt3{
+		width:300px;
+		height:1000px;
+		margin-left: -150px;
+	}
+
+	section .tt4{
+		width:300px;
+		height:1500px;
+		margin-left: -150px;
+	}
+
+	section .tt5{
+		left:50%;
+		width:300px;
+		margin-left: -150px;
+	}
+
+	section .tt6{
+		width:300px;
+		height:1400px;
+		margin-left: -150px;
+	}
+
+	section .tt7{
+		width:300px;
+		height:8550px;
+		margin-left: -150px;
+	}
+
+	section h1{
+		font-size: 20pt;
+	}
+
+	section p{
+		font-size: 11pt;
+	}
+
+	section pre{
+		font-size: 8pt;
+	}
+
+}
+
+@media screen and ( min-width: 401px ) and ( max-width: 500px ){
+
+	section .tt{
+		width:350px;
+		height:2200px;
+		margin-left: -175px;
+	}
+
+	section .tt2{
+		width:350px;
+		height:1200px;
+		margin-left: -175px;
+	}
+
+	section .tt3{
+		width:350px;
+		height:1100px;
+		margin-left: -175px;
+	}
+
+	section .tt4{
+		width:350px;
+		height:1500px;
+		margin-left: -175px;
+	}
+
+	section .tt5{
+		left:50%;
+		width:350px;
+		margin-left: -175px;
+	}
+
+	section .tt6{
+		width:350px;
+		height:1500px;
+		margin-left: -175px;
+	}
+
+	section .tt7{
+		width:350px;
+		height:8650px;
+		margin-left: -175px;
+	}
+
+	section h1{
+		font-size: 20pt;
+	}
+
+	section p{
+		font-size: 13pt;
+	}
+
+	section pre{
+		font-size: 8pt;
+	}
+
+}
+
+@media screen and ( min-width: 501px ) and ( max-width: 700px ){
+
+	section .tt{
+		width:400px;
+		height:2500px;
+		margin-left: -200px;
+	}
+
+	section .tt2{
+		width:400px;
+		height:1300px;
+		margin-left: -200px;
+	}
+
+	section .tt3{
+		width:400px;
+		height:1200px;
+		margin-left: -200px;
+	}
+
+	section .tt4{
+		width:400px;
+		height:1550px;
+		margin-left: -200px;
+	}
+
+	section .tt5{
+		left:50%;
+		width:400px;
+		margin-left: -200px;
+	}
+
+	section .tt6{
+		width:400px;
+		height:1600px;
+		margin-left: -200px;
+	}
+
+	section .tt7{
+		width:400px;
+		height:9650px;
+		margin-left: -200px;
+	}
+
+	section h1{
+		font-size: 24pt;
+	}
+
+	section p{
+		font-size: 17pt;
+	}
+
+	section pre{
+		font-size: 9pt;
+	}
+
+}
