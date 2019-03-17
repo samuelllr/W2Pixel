@@ -90,3 +90,6 @@ W2Pixel, um plugin desenvolvido para desenhos em pixel no navegador, feito em Ja
         </script>
 
 </pre></code>
+
+Current version : 2.0.0 .
+Versão atual : 2.0.0 .
