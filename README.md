@@ -27,9 +27,9 @@ Há possibilidade de criar animações, agora existe o w2pixelCanvas( ); que mud
 
 ************
 
-Static drawing example
+Static drawing example:
 <br><br>
-Exemplo de desenho estático
+Exemplo de desenho estático:
 
 <img src="ex.png"/>
 
@@ -197,8 +197,11 @@ Resultado do código acima:  https://samcode.000webhostapp.com/exemploGithub.htm
 
 ************
 
-Current version : 2.0.0 .
-<br>
-Versão atual : 2.0.0 .
-
 site : https://samcode.000webhostapp.com
+
+Current version : 2.1.0 .
+<br>
+Versão atual : 2.1.0 .
+
+data/date : 02/04/2019.
+
