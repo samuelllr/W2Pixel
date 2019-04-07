@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+
+    <title>wLinePath( );</title>
+
+	<link rel="stylesheet" type="text/css" href="ui/styletext.css">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+</head>
+<body>
+<header></header>
+
+	<section>
+		
+		<div class="tt4">
+
+			<h1>wLinePath( );</h1>
+			<p>
+				
+                Funciona como o <code>wPointPath( );</code>, só que com umas diferenças, pois <code>wLinePath( );</code>
+                gera linhas em vez de pontos e não se posiciona a partir da última posição, sua propriedade é um valor Json.
+                <br><br>
+                Vamos para um exemplo, para melhorar o entendimento desta função:
+                <br><br>
+                Primeiro definimos um ponto inicial:
+				
+			</p>
+			<pre><code>
+ < !DOCTYPE HTML >
+ < html >
+ < head >
+
+	< script src="W2Pixel-2.2.0.min.js" >< /script >
+
+ < /head >
+ < body >
+
+	< script >
+
+        w2pixel( 400 , 400 , 10 , 10 );
+        <b>wLinePath([ 1,1 ]);</b>
+
+	< /script >
+
+ < /body >
+ < /html >
+			</code></pre>
+			<p>
+				Execultando no navegador:
+			</p>
+
+			<object data="data/ex14.html"></object>
+			
+			<p>
+				Agora vamos escolher outra posição, isso vai fazer voçê lembrar da tag <code>line</code> de SVG:
+			</p>
+			<pre><code>
+ < !DOCTYPE HTML >
+ < html >
+ < head >
+					   
+	 < script src="W2Pixel-2.2.0.min.js" >< /script >
+					   
+ < /head >
+ < body >
+					   
+	< script >
+					   
+        w2pixel( 200 , 200 , 10 , 10 );
+        wLinePath([ 1,1<b>,8,1</b> ]);
+		
+	< /script >
+					   
+ < /body >
+ < /html >
+			</code></pre>
+			<p>
+				Execultando:
+			</p>
+            <object data="data/ex15.html"></object>
+            <p>
+               Vamos escolher mais uma posição, agora vai fazer voçê lembrar da tag <code>polyline</code> de SVG:
+            </p>
+            <pre><code>
+< !DOCTYPE HTML >
+< html >
+< head >
+                                          
+    < script src="W2Pixel-2.2.0.min.js" >< /script >
+                                          
+< /head >
+< body >
+                                          
+    < script >
+                                          
+        w2pixel( 200 , 200 , 10 , 10 );
+        wLinePath([ 1,1,8,1<b>,8,8</b> ]);
+                           
+    < /script >
+                                          
+< /body >
+< /html >
+                </code></pre>
+                <p>
+                    Execultando:
+                </p>
+                <object data="data/ex16.html"></object>
+                <p>
+                   Agora veja a seguinte brincadeira:                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+                </p>
+                <pre><code>
+< !DOCTYPE HTML >
+< html >
+< head >
+                
+    < script src="W2Pixel-2.2.0.min.js" >< /script >
+                
+< /head >
+< body >
+            
+    < script >
+        
+        w2pixel( 200 , 200 , 10 , 10 );
+        wLinePath([ 1,1,8,1,8,8<b>,7,8,4,5,1,8</b> ]);
+                        
+    < /script >
+
+< /body >
+< /html >
+                </code></pre>
+                <object data="data/ex17.html"></object>
+
+		</div>
+
+	</section>
+
+<footer></footer>
+</html>

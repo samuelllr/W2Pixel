@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+
+    <title>wPointPath( );</title>
+
+	<link rel="stylesheet" type="text/css" href="ui/styletext.css">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+</head>
+<body>
+<header></header>
+
+	<section>
+		
+		<div class="tt5">
+
+			<h1>wPointPath( );</h1>
+			<p>
+				
+                Com isto você consegue colocar varios pixels únicos interligados entre si atráves de suas posições 
+                de uma vez. Sua propriedade é um valor em Json.
+                <br><br>
+                Para um exemplo, primeiro defina um ponto inicial, veja:
+				
+			</p>
+			<pre><code>
+ < !DOCTYPE HTML >
+ < html >
+ < head >
+
+	< script src="W2Pixel-2.2.0.min.js" >< /script >
+
+ < /head >
+ < body >
+
+	< script >
+
+        w2pixel( 400 , 400 , 10 , 10 );
+        <b>wPointPath([ 2,2 ]);</b>
+
+	< /script >
+
+ < /body >
+ < /html >
+			</code></pre>
+			<p>
+				Execultando no navegador:
+			</p>
+
+			<object data="data/ex11.html"></object>
+			
+			<p>
+				A partir deste ponto inicial, poderá escolher outra posição, veja:
+			</p>
+			<pre><code>
+ < !DOCTYPE HTML >
+ < html >
+ < head >
+					   
+	 < script src="W2Pixel-2.2.0.min.js" >< /script >
+					   
+ < /head >
+ < body >
+					   
+	< script >
+					   
+        w2pixel( 200 , 200 , 10 , 10 );
+        wPointPath([ 2,2<b>,0,1</b> ]);
+		
+	< /script >
+					   
+ < /body >
+ < /html >
+			</code></pre>
+			<p>
+				Execultando:
+			</p>
+            <object data="data/ex12.html"></object>
+            <p>
+                Para o melhor entender do que foi feito no exemplo acima, a sintaxe é a seguinte:
+                <br><br>
+                <code>wPointPath([ x,y,x,y ]);</code>
+                <br>
+                O ponto inicial foi de dois pixels no eixo X e dois pixels no eixo Y, para gerar o segundo ponto,
+                foi movimentado zero pixel no eixo X e mais um pixel no eixo Y.
+                <br><br>
+                Observe a continuação deste exemplo:
+            </p>
+            <pre><code>
+< !DOCTYPE HTML >
+< html >
+< head >
+                                          
+    < script src="W2Pixel-2.2.0.min.js" >< /script >
+                                          
+< /head >
+< body >
+                                          
+    < script >
+                                          
+        w2pixel( 200 , 200 , 10 , 10 );
+        wPointPath([ 2,2,0,1<b>,1,0,1,0,0,-1,3,3,0,1,0,2</b> ]);
+                           
+    < /script >
+                                          
+< /body >
+< /html >
+                </code></pre>
+                <p>
+                    Execultando:
+                </p>
+                <object data="data/ex13.html"></object>
+                <p>
+                    Sempre deve informar a posição X e Y de cada ponto que for gerar, e esse ponto sempre se
+                    posicionara a partir da posição do último pixel gerado.
+                </p>
+
+		</div>
+
+	</section>
+
+<footer></footer>
+</html>
