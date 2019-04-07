@@ -7,8 +7,6 @@ JavaScript plugin for pixelated drawings.
 
 W2Pixel, a plugin developed for pixel drawings in the browser, made in JavaScript, with it you draw, using in your HTML code and running in your browser, so the drawing is formed in pixelated format. W2Pixel, is fast and practical, simple to learn in just 1 day.
 
-************
-
 W2Pixel, um plugin desenvolvido para desenhos em pixel no navegador, feito em JavaScript, com ele você desenha, utilizando em seu código HTML e executando em seu navegador, assim o desenho é formado no formato pixelado. W2Pixel, é rápido e prático, simples de aprender em apenas 1 dia.
 
 ************
@@ -37,6 +35,7 @@ O que há de novo na nova versão 2.2.0?
 
 Novos códigos: wLinePath e wPointPath, eles iram facilitar mais para desenhar pontos, linhas únicas, linhas interligadas como polyline de SVG.
 
+************
 ************
 
 Static drawing example:
