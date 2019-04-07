@@ -25,6 +25,18 @@ O que há de novo na nova versão 2.1.0?
 
 Há possibilidade de criar animações, agora existe o w2pixelCanvas( ); que muda a renderização SVG para CANVAS, e também o wClear( ); para limpar a sua tela de desenho durante a animação.
 
+-------------------------------------------------------------------------------------------------------------------------------------
+
+What's new in the new version 2.2.0?  
+
+New codes: wLinePath and wPointPath, they will facilitate more to draw points, lines, interlocking lines as SVG polyline.
+
+
+
+O que há de novo na nova versão 2.2.0?
+
+Novos códigos: wLinePath e wPointPath, eles iram facilitar mais para desenhar pontos, linhas únicas, linhas interligadas como polyline de SVG.
+
 ************
 
 Static drawing example:
@@ -199,9 +211,9 @@ Resultado do código acima:  https://samcode.000webhostapp.com/exemploGithub.htm
 
 site : https://samcode.000webhostapp.com
 
-Current version : 2.1.0 .
+Current version : 2.2.0 .
 <br>
-Versão atual : 2.1.0 .
+Versão atual : 2.2.0 .
 
-data/date : 02/04/2019.
+data/date : 06/04/2019.
 
