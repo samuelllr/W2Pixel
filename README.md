@@ -13,18 +13,6 @@ W2Pixel, um plugin desenvolvido para desenhos em pixel no navegador, feito em Ja
 
 ************
 
-What's new in the new version 2.1.0?  
-
-There is possibility to create animations, now there is the w2pixelCanvas( ); that changes the rendering SVG to CANVAS, and also the wClear( ); to clean your canvas during the animation.
-
-
-
-O que há de novo na nova versão 2.1.0?
-
-Há possibilidade de criar animações, agora existe o w2pixelCanvas( ); que muda a renderização SVG para CANVAS, e também o wClear( ); para limpar a sua tela de desenho durante a animação.
-
--------------------------------------------------------------------------------------------------------------------------------------
-
 What's new in the new version 2.2.0?  
 
 New codes: wLinePath and wPointPath, they will facilitate more to draw points, lines, interlocking lines as SVG polyline.
@@ -34,6 +22,17 @@ New codes: wLinePath and wPointPath, they will facilitate more to draw points, l
 O que há de novo na nova versão 2.2.0?
 
 Novos códigos: wLinePath e wPointPath, eles iram facilitar mais para desenhar pontos, linhas únicas, linhas interligadas como polyline de SVG.
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+What's new in the new version 2.3.0?
+
+New codes: wCreateObject (); and wObject (); they are tools to create complex objects (shapes) using only your mouse, and so adding to your creation to your code.
+
+
+O que há de novo na nova versão 2.3.0?
+
+Novos códigos:  wCreateObject(); e wObject(); , eles são ferramentas para criar objetos (formas) complexas utilizando apenas seu mouse, e assim adicionando a sua criação ao seu código.
 
 ************
 ************
@@ -184,9 +183,9 @@ Resultado do código acima:  https://samcode.000webhostapp.com/exemploGithub.htm
 
 site : https://samcode.000webhostapp.com
 
-Current version : 2.2.0 .
+Current version : 2.3.0 .
 <br>
-Versão atual : 2.2.0 .
+Versão atual : 2.3.0 .
 
-data/date : 06/04/2019.
+data/date : 10/04/2019.
 
