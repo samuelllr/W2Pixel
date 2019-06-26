@@ -13,18 +13,6 @@ W2Pixel, um plugin desenvolvido para desenhos em pixel no navegador, feito em Ja
 
 ************
 
-What's new in the new version 2.2.0?  
-
-New codes: wLinePath and wPointPath, they will facilitate more to draw points, lines, interlocking lines as SVG polyline.
-
-
-
-O que há de novo na nova versão 2.2.0?
-
-Novos códigos: wLinePath e wPointPath, eles iram facilitar mais para desenhar pontos, linhas únicas, linhas interligadas como polyline de SVG.
-
--------------------------------------------------------------------------------------------------------------------------------------
-
 What's new in the new version 2.3.0?
 
 New codes: wCreateObject (); and wObject (); they are tools to create complex objects (shapes) using only your mouse, and so adding to your creation to your code.
@@ -33,6 +21,17 @@ New codes: wCreateObject (); and wObject (); they are tools to create complex ob
 O que há de novo na nova versão 2.3.0?
 
 Novos códigos:  wCreateObject(); e wObject(); , eles são ferramentas para criar objetos (formas) complexas utilizando apenas seu mouse, e assim adicionando a sua criação ao seu código.
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+What's new in the new version 2.3.1?
+
+Was made some improvements and adding the shortcut CTRL + Z Undo the code wCreateObject( );
+
+
+O que há de novo na nova versão 2.3.1?
+
+Foi feito algumas melhorias e adicionamento do atalho desfazer CTRL+Z no código wCreateObject( );
 
 ************
 ************
@@ -183,9 +182,9 @@ Resultado do código acima:  https://samcode.000webhostapp.com/exemploGithub.htm
 
 site : https://samcode.000webhostapp.com
 
-Current version : 2.3.0 .
+Current version : 2.3.1 .
 <br>
-Versão atual : 2.3.0 .
+Versão atual : 2.3.1 .
 
-data/date : 10/04/2019.
+data/date : 25/06/2019.
 
