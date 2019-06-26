@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+
+    <title>wCreateObject( ); - wObject( );</title>
+
+	<link rel="stylesheet" type="text/css" href="ui/styletext.css">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+</head>
+<body>
+<header></header>
+
+	<section>
+		
+		<div class="tt5">
+
+			<h1>wCreateObject( ); e wObject( );</h1>
+			<p>
+                <code>wCreateObject( );</code> é para ajudar na tarefa de criar objetos (formas) complexas e 
+                <code>wObject( );</code> é para aplicar estes objetos (formas);
+                <br><br>
+               Primeiro sobre o <code>wCreateObject();</code>, ao chamar esta função você cria uma réplica de sua
+               tela de desenho, mas sensível ao mouse, desta forma é possível criar objetos (formas) mais complexos
+               com mais facilidade, está função possui duas propriedades, que são a largura e altura da replica a ser
+               gerada.
+               <br><br>
+               A réplica de sua tela de desenho, será gerada ao lado da original, e também aparecerá um pequeno
+               retângulo onde o Json do objeto que estará desenhando será gerado, veja:
+			</p>
+			<pre><code>
+ < !DOCTYPE HTML >
+ < html >
+ < head >
+
+	< script src="W2Pixel-2.3.0.min.js" >< /script >
+
+ < /head >
+ < body >
+
+	< script >
+
+        w2pixel( 200 , 200 , 10 , 10 );
+        wFill( "#0af" );
+        wRect( 4,4,2,2 );
+        <b>wCreateObject( 300,300 );</b>
+
+	< /script >
+
+ < /body >
+ < /html >
+			</code></pre>
+			<p>
+                Execultando no navegador:
+                <br>
+                ( pode interagir com o resultado a baixo )
+			</p>
+
+			<object data="data/ex18.html"></object>
+			
+			<p>
+                Exitem dois controles de mouse, quando a função é chamada, se você clicar em um dos pixels
+                da réplica, o pixel passa a ser preto e na tela de desenho original mostra como vai ficar,
+                mas o controle esta em "CLICK", é possível mudar para um controle mais rápido, basta apenas 
+                pressionar a tecla <b>"Q"</b> do seu teclado e o controle passará a ser "ONMOUSEENTER" 
+                ( tente fazer isso no exemplo acima ), para voltar ao "CLICK" basta pressionar a mesma tecla novamente,
+                a tecla <b>"Q"</b> ela muda o tipo de controle.
+                <br><br>
+                Se você errou, use o CTRL+Z para desfazer e se desejar recomeçar a criar o objeto, basta pressionar a tecla <b>"W" (w)</b> que um
+                reflesh será dado na página ( tente no exemplo acima ), a tecla <b>W</b> recomeça a sua criação.
+                <br><br>
+                Depois de criar o seu objeto (forma), copie o código Json do pequeno retângulo, apenas click duas
+                vezes sobre o código e pressione Ctrl+C de seu teclado e cole no <code>wObject( );</code>
+                que o seu objeto (forma) será aplicado na tela de desenho original.
+			</p>
+			<pre><code>
+ < !DOCTYPE HTML >
+ < html >
+ < head >
+					   
+	 < script src="W2Pixel-2.3.0.min.js" >< /script >
+					   
+ < /head >
+ < body >
+					   
+	< script >
+					   
+        w2pixel( 200 , 200 , 10 , 10 );
+        <b>wObject( [
+            2,7,3,6,2,5,4,7,3,5,4,6,4,5,4,4,5,5,5,4,
+            5,3,6,4,6,3,6,2,7,3,7,2,1,8,7,1,8,2,8,1
+        ] );</b>
+		
+	< /script >
+					   
+ < /body >
+ < /html >
+			</code></pre>
+			<p>
+				Execultando:
+			</p>
+            <object data="data/ex19.html"></object>
+            <p>
+                Isto tudo serve como uma ferramenta para ajudar você nas sua criações
+                com o W2Pixel, a realizar tarefas mais complexas.
+            </p>
+
+		</div>
+
+	</section>
+
+<footer></footer>
+</html>
