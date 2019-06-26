@@ -179,6 +179,14 @@ Code result above : https://samcode.000webhostapp.com/exemploGithub.html
 Resultado do código acima:  https://samcode.000webhostapp.com/exemploGithub.html
 
 ************
+One more drawing for example:
+<br><br>
+Mais um desenho para exemplo:
+<br>
+
+<img src="https://samcode.000webhostapp.com/exempleimggithub.png"/>
+
+************
 
 site : https://samcode.000webhostapp.com
 
