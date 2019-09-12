@@ -13,14 +13,14 @@ W2Pixel, um plugin desenvolvido para desenhos em pixel no navegador, feito em Ja
 
 ************
 
-What's new in the new version 2.3.0?
+What's new in the new version 2.3.2?
 
-New codes: wCreateObject (); and wObject (); they are tools to create complex objects (shapes) using only your mouse, and so adding to your creation to your code.
+Modification in wCreateObject () Code; , you can now load an image into the editor for easy copying of your art.
 
 
-O que há de novo na nova versão 2.3.0?
+O que há de novo na nova versão 2.3.2?
 
-Novos códigos:  wCreateObject(); e wObject(); , eles são ferramentas para criar objetos (formas) complexas utilizando apenas seu mouse, e assim adicionando a sua criação ao seu código.
+Modificação no código wCreateObject(); , agora pode carregar uma imagem no editor para facilitar a cópia de sua arte.
 
 -------------------------------------------------------------------------------------------------------------------------------------
 
@@ -190,9 +190,9 @@ Mais um desenho para exemplo:
 
 site : https://samcode.000webhostapp.com
 
-Current version : 2.3.1 .
+Current version : 2.3.2 .
 <br>
-Versão atual : 2.3.1 .
+Versão atual : 2.3.2 .
 
-data/date : 25/06/2019.
+data/date : 12/09/2019.
 
