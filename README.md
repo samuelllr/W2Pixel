@@ -15,7 +15,7 @@ W2Pixel, um plugin desenvolvido para desenhos em pixel no navegador, feito em Ja
 
 What's new in the new version 2.3.2?
 
-Modification in wCreateObject( ); Code; , you can now load an image into the editor for easy copying of your art.
+Modification in wCreateObject( ); code, you can now load an image into the editor for easy copying of your art.
 
 
 O que há de novo na nova versão 2.3.2?
