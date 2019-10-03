@@ -13,6 +13,17 @@ W2Pixel, um plugin desenvolvido para desenhos em pixel no navegador, feito em Ja
 
 ************
 
+What's new in the new version 2.4.0?
+
+Now with the shortcut CTRL+M you generate a BASE64 drawing to use as you like as well as turning your drawing into an image.
+
+
+O que há de novo na nova versão 2.4.0?
+
+Agora com o atalho CTRL+M você gera uma BASE64 de desenho para usar como quiser assim como transformar seu desenho em uma imagem.
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
 What's new in the new version 2.3.2?
 
 Modification in wCreateObject( ); code, you can now load an image into the editor for easy copying of your art.
@@ -21,17 +32,6 @@ Modification in wCreateObject( ); code, you can now load an image into the edito
 O que há de novo na nova versão 2.3.2?
 
 Modificação no código wCreateObject( ); , agora pode carregar uma imagem no editor para facilitar a cópia de sua arte.
-
--------------------------------------------------------------------------------------------------------------------------------------
-
-What's new in the new version 2.3.1?
-
-Was made some improvements and adding the shortcut CTRL + Z Undo the code wCreateObject( );
-
-
-O que há de novo na nova versão 2.3.1?
-
-Foi feito algumas melhorias e adicionamento do atalho desfazer CTRL+Z no código wCreateObject( );
 
 ************
 ************
@@ -190,9 +190,9 @@ Mais um desenho para exemplo:
 
 site : https://samcode.000webhostapp.com
 
-Current version : 2.3.2 .
+Current version : 2.4.0 .
 <br>
-Versão atual : 2.3.2 .
+Versão atual : 2.4.0 .
 
-data/date : 12/09/2019.
+data/date : 02/10/2019.
 
