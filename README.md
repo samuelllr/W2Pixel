@@ -3,7 +3,6 @@ JavaScript plugin for pixelated drawings.
 
 <img src="w2p.png"/>
 
-$ git tag
 v2.4.0
 
 ************
