@@ -194,9 +194,9 @@ Mais um desenho para exemplo:
 
 site : https://samcode.000webhostapp.com
 
-Current version : 2.4.0 .
+Current version : 2.5.0 .
 <br>
-Versão atual : 2.4.0 .
+Versão atual : 2.5.0 .
 
-data/date : 02/10/2019.
+data/date : 25/02/2020.
 
