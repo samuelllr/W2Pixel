@@ -1,9 +1,11 @@
 # W2Pixel
 JavaScript plugin for pixelated drawings.
 
+Plug-in JavaScript para desenhos pixelizados.
+
 <img src="w2p.png"/>
 
-v2.4.0
+v2.5.0
 
 ************
 
@@ -15,6 +17,17 @@ W2Pixel, um plugin desenvolvido para desenhos em pixel no navegador, feito em Ja
 
 ************
 
+What's new in the new version 2.5.0?
+
+New code wDiamond (); To create pixel lozenges.
+
+
+O que há de novo na nova versão 2.5.0?
+
+Novo código wDiamond( ); Para criar Losangos em pixel.
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
 What's new in the new version 2.4.0?
 
 Now with the shortcut CTRL+M you generate a BASE64 drawing to use as you like as well as turning your drawing into an image.
@@ -23,17 +36,6 @@ Now with the shortcut CTRL+M you generate a BASE64 drawing to use as you like as
 O que há de novo na nova versão 2.4.0?
 
 Agora com o atalho CTRL+M você gera uma BASE64 de desenho para usar como quiser assim como transformar seu desenho em uma imagem.
-
--------------------------------------------------------------------------------------------------------------------------------------
-
-What's new in the new version 2.3.2?
-
-Modification in wCreateObject( ); code, you can now load an image into the editor for easy copying of your art.
-
-
-O que há de novo na nova versão 2.3.2?
-
-Modificação no código wCreateObject( ); , agora pode carregar uma imagem no editor para facilitar a cópia de sua arte.
 
 ************
 ************
