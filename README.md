@@ -19,7 +19,7 @@ W2Pixel, um plugin desenvolvido para desenhos em pixel no navegador, feito em Ja
 
 What's new in the new version 2.5.0?
 
-New code wDiamond (); To create pixel lozenges.
+New code wDiamond ( ); To create pixel lozenges.
 
 
 O que há de novo na nova versão 2.5.0?
