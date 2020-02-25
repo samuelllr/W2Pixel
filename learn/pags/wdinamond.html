@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+
+    <title>wPointPath( );</title>
+
+	<link rel="stylesheet" type="text/css" href="ui/styletext.css">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+</head>
+<body>
+<header></header>
+
+	<section>
+		
+		<div class="tt5">
+
+			<h1>wDiamond( ); - versão W2P 2.5.0^</h1>
+			<p>
+				
+                Ao chamar <code>wDiamond</code>, você cria um losango perfeito.Possui 4 propriedades,a sintaxe é:<br/><br/>
+                <code>wDiamond( x , y , size , fix? );</code><br/><br/>
+                Primeiro vamos ver um exemplo utilizado apenas as três primeiras propriedades, pois a quarta é opicional:
+				
+			</p>
+			<pre><code>
+ < !DOCTYPE HTML >
+ < html >
+ < head >
+
+	< script src="W2Pixel-2.5.0.min.js" >< /script >
+
+ < /head >
+ < body >
+
+	< script >
+
+        w2pixel( 400 , 400 , 10 , 10 );
+        <b>wDiamond( 2 , 2 , 11 );</b>
+
+	< /script >
+
+ < /body >
+ < /html >
+			</code></pre>
+			<p>
+				Execultando no navegador:
+			</p>
+
+			<object data="data/ex21.html"></object>
+			
+			<p>
+                No exemplo acima, chamamos <code>wDiamond( );</code> com a posição X igual a 2 e a posição Y também igual a 2,
+                com o tamanho de 11 pixels, isso quer dizer que da extremidade de cada vertice até a vertice paralela a ela tem 11 pixels de tamanho.<br><br>
+                Agora vamos falar da quarta propriedade, que chamamos de <b>"fix?"</b>, o ponto de interrogação é porque é opicional chamar essa pripriedade ou não,
+                mas também existe uma hora certa de chamá-la, qual a hora certa então? Bem, no exemplo acima colocamos um tamnho de <b>11 pixels</b>,
+                onze é um número inpar, isso quer dizer que, números inpares o formato do losango fica perfeito, mas quando o número de pixel de vertice a vertice é par, o
+                formato do losango não fica perfeito, por isso existe a quarta propriedade.<br/><br/>
+                Veja o exemplo abaixo, vamos colocar um tamanho de 10 pixels, dez é um número par, e não iremos chamar a quarta propriedade, olhe como ficou o losango
+                ao executarmos o código:
+			</p>
+			<pre><code>
+ < !DOCTYPE HTML >
+ < html >
+ < head >
+					   
+	 < script src="W2Pixel-2.5.0.min.js" >< /script >
+					   
+ < /head >
+ < body >
+					   
+	< script >
+					   
+        w2pixel( 250 , 250 , 20 , 20 );
+        <b>wDiamond( 2 , 2 , <i>10</i> );</b>
+		
+	< /script >
+					   
+ < /body >
+ < /html >
+			</code></pre>
+			<p>
+				Execultando:
+			</p>
+            <object data="data/ex22.html"></object>
+            <p>
+				Ficou feio não é mesmo? Para corrigir isso chamamos a quarta propriedade, ela tem um único valor que é <b>"fix"</b> (sempre com aspas).
+				<br/><br/>Veja o exemplo abaixo, o tamanho continua 10 pixels de vertice a vertice, mas depois de chamarmos a quarta propriedade tudo se acerta, e nosso losango
+				fica perfeito novamente:
+            </p>
+            <pre><code>
+< !DOCTYPE HTML >
+< html >
+< head >
+                                          
+    < script src="W2Pixel-2.5.0.min.js" >< /script >
+                                          
+< /head >
+< body >
+                                          
+    < script >
+                                          
+	    w2pixel( 400 , 400 , 10 , 10 );
+	    <b>wDiamond( 2 , 2 , 10 , <i>"fix"</i> );</b>
+                           
+    < /script >
+                                          
+< /body >
+< /html >
+                </code></pre>
+                <p>
+                    Execultando:
+                </p>
+                <object data="data/ex23.html"></object>
+                <p>
+                    As vertices passam a ser menos pontiagudas, é presciso para o formato se acertar, mas volta a estar perfeito.
+                </p>
+
+		</div>
+
+	</section>
+
+<footer></footer>
+</html>
