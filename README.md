@@ -7,7 +7,7 @@ Plug-in JavaScript para desenhos pixelizados.
 
 v2.5.0
 
-[visitors](https://visitor-badge.glitch.me/badge?page_id=samuelllr/W2Pixel)
+![visitors](https://visitor-badge.glitch.me/badge?page_id=samuelllr/W2Pixel)
 ![GitHub repo size](https://img.shields.io/github/repo-size/samuelllr/W2Pixel?color=red)
 ![GitHub](https://img.shields.io/github/license/samuelllr/W2Pixel)
 ![Twitter Follow](https://img.shields.io/twitter/follow/Samuelllr_htcod?style=social)
