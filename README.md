@@ -7,6 +7,11 @@ Plug-in JavaScript para desenhos pixelizados.
 
 v2.5.0
 
+[visitors](https://visitor-badge.glitch.me/badge?page_id=samuelllr/W2Pixel)
+![GitHub repo size](https://img.shields.io/github/repo-size/samuelllr/W2Pixel?color=red)
+![GitHub](https://img.shields.io/github/license/samuelllr/W2Pixel)
+![Twitter Follow](https://img.shields.io/twitter/follow/Samuelllr_htcod?style=social)
+
 ************
 
 W2Pixel, a plugin developed for pixel drawings in the browser, made in JavaScript, with it you draw, using in your HTML code and running in your browser, so the drawing is formed in pixelated format. W2Pixel, is fast and practical, simple to learn in just 1 day.
